@@ -23,7 +23,17 @@ export default function App() {
     const fetchForecast = async () => {
         setIsLoading(true);
         try {
-            const response = await fetch(`http://127.0.0.1:8000/api/forecast?lead_time=${leadTime}`);
+            const queryParams = new URLSearchParams(window.location.search);
+            const customApi = queryParams.get('api');
+
+            // Allow dynamic URL injection, fallback to standard localhost
+            const baseUrl = customApi ? customApi : 'http://127.0.0.1:8000';
+
+            const response = await fetch(`${baseUrl}/api/forecast?lead_time=${leadTime}`, {
+                headers: {
+                    'bypass-tunnel-reminder': 'true' // Required for Localtunnel bypass
+                }
+            });
             const data = await response.json();
             setRegionsData(data);
             setIsLive(true);

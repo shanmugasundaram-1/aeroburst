@@ -1,0 +1,22 @@
+﻿python : Traceback (most 
+recent call last):
+At line:1 char:1
++ python prepare_data.py 
+2>&1 | Out-File -Encoding 
+utf8 prepare_log.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (Traceba  
+  ck (most recent call las   
+ t)::String) [], RemoteEx    
+ception
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+  File 
+"C:\Users\ELCOT\Videos\sih 07
+9\ml_pipeline\prepare_data.py
+", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No 
+module named 'pandas'

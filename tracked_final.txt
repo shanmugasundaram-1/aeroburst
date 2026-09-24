@@ -1,0 +1,33 @@
+﻿.gitignore
+README.md
+backend/main.py
+backend/pip_backend.txt
+backend/requirements.txt
+data/india_2000_2024_daily_weather.csv
+data/processed_aerobust.csv
+forecast-dashboard/images/Emblem_of_India_with_transparent_background.png
+forecast-dashboard/images/images (2).jpg
+forecast-dashboard/images/images (3).jpg
+forecast-dashboard/index.html
+forecast-dashboard/package-lock.json
+forecast-dashboard/package.json
+forecast-dashboard/postcss.config.js
+forecast-dashboard/public/logos/Emblem_of_India_with_transparent_background.png
+forecast-dashboard/public/logos/images (2).jpg
+forecast-dashboard/public/logos/images (3).jpg
+forecast-dashboard/src/App.jsx
+forecast-dashboard/src/index.css
+forecast-dashboard/src/main.jsx
+forecast-dashboard/tailwind.config.js
+forecast-dashboard/vite.config.js
+ml_pipeline/aerobust_lstm.pth
+ml_pipeline/models.py
+ml_pipeline/pip_log.txt
+ml_pipeline/prepare_data.py
+ml_pipeline/prepare_log.txt
+ml_pipeline/prepare_log2.txt
+ml_pipeline/train.py
+ml_pipeline/version.txt
+push_out.txt
+tracked.txt
+tracked_files.txt
